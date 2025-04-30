@@ -23,7 +23,7 @@ end
 
 # Exercise 1, item A
 def palindrome?(string)
-    string = string.gsub(/\W/i,"").downcase
+    string = string.gsub(/\W/,"").downcase
     string == string.reverse
 end
   
