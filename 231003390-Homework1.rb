@@ -91,7 +91,7 @@ end
 # Exercise 2, item B (option1)
 def rps_tournament_winner_a(matches)
   
-  # If match is 
+  # If match is the first one (first in tournament branch)
   if matches[0][0].is_a?(String)
     return rps_game_winner(matches)
   end
