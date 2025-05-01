@@ -251,7 +251,6 @@ class Numeric
     if @@currencies.has_key?(singular_currency)
       self * @@currencies[singular_currency]
     else
-      puts method_id
       super
     end
   end
